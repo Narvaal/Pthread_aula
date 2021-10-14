@@ -27,7 +27,7 @@ int main(){
   free(thread_handles);
 
   //Saida
-  printf("Numero de thread % d -> %f\n",thread_count,sum*4.0);
+  printf("Para n = %d e Numero de thread %d -> %f\n",n,thread_count,sum*4.0);
   
   return 0;
 }
