@@ -27,8 +27,8 @@ int main(){
   free(thread_handles);
 
   //Saida
-  printf("%f",sum*4.0);
-
+  printf("Numero de thread % d -> %f\n",thread_count,sum*4.0);
+  
   return 0;
 }
 void * Thread_sum (void * rank){
