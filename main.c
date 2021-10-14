@@ -8,7 +8,7 @@ int thread_count = 2;
 int n = 1000000;
 
 
-double sum;
+double sum = 0.0;
 void *Thread_sum (void * rank);
 
 int main(){
